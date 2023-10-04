@@ -13,10 +13,10 @@
           <form>
             <fieldset class="main">
                     <fieldset>
-                        <legend>User Info</legend>
+                        <legend>Dane użytkownika</legend>
                    
                     <fieldset>
-                        <legend>Login</legend>
+                        <legend>Logowanie</legend>
                         <label for="username">username<input type="text" name="username" placeholder=""></label>
                         <label for="password">password<input type="password" name="password"></label>
                     </fieldset>
@@ -27,13 +27,16 @@
                         </fieldset>  
                 </fieldset>
             
-            
+            <div class="dissclaimer">
+                <h2>INFO</h1>
+                <a>Our team only need your prefered producers. We have team of specialist that with us of our algoritm are able to make the best bc knowing it purpouse and the price range. Also our team may contact you to propose better options and some changes</a>
+            </div>
             <fieldset>
                 <legend>PC parts producers</legend>
                 <label for="">Processor
                     <select name="" id="">
                         <option>AMD</option>
-                        <option></option>Intel</option>
+                        <option>Intel</option>
                     </select>
                 </label>
                 <label for="">Graphic card
@@ -65,18 +68,24 @@
                         <option>Gigabyte</option>
                         <option>Kingstone</option>
                         <option>Corsair</option>
-                        <option></option>
+                        <option>G.Skill</option>
                     </select>
                 </label>
                 <label for="">Storage
                     <select name="" id="">
-                        <option></option>
-                        <option></option>
-                        <option></option>
-                        <option></option>
+                        <option>Samsung</option>
+                        <option>Gigabyte</option>
+                        <option>Corsair</option>
+                        <option>Kingstone</option>
                     </select>
                 </label>
-            </fieldset>        
+            </fieldset>   
+            <fieldset>
+                <label for="">Budżet
+                <input type="range" id="a" name="a" min="0" max="20000" step="100" oninput="result.value=a.value"/>           
+                <output name="result" for="a" >10000</output>zł
+            </label>
+            </fieldset>     
             </fieldset>
           </form>
         </div>
