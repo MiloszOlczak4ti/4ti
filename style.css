@@ -10,17 +10,30 @@ body{
     height: 100vh;
     width: 100vw;
 }
+
 .strona{
-    width: 100vw;
-    height: 100vh;
-    background-color: aliceblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
+legend{
+    width: 7rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: azure;
+    border-radius: 1rem;
+    background-color: #A17765;
+}
+
+.main{
+    background-color: #420905;
+    border-radius: 1rem;
+}
 .formularz{
-    width: 30rem;
+    width: 36rem;
     display: flex;
 
 }
@@ -39,6 +52,7 @@ fieldset{
     align-items: center;
     padding: 2rem;
     margin: 1rem;
+    background-color: #ffe4c4;
 }
 
 .log{
@@ -54,6 +68,7 @@ fieldset{
     align-items: center;
     padding: 2rem;
     margin: 1rem;
+    background-color: bisque;
 }
 
 .meil{
