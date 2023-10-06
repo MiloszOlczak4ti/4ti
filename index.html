@@ -15,10 +15,10 @@
                     <fieldset>
                         <legend>Dane użytkownika</legend>
                    
-                    <fieldset>
+                    <fieldset class="login">
                         <legend>Logowanie</legend>
-                        <label for="username">Nazwa użytkownika <input type="text" name="username" placeholder=""></label>
-                        <label for="password">Hasło <input type="password" name="password"></label>
+                        <label for="username">Nazwa użytkownika <input class="log" type="text" name="username" placeholder=""></label>
+                        <label for="password" class="dol">Hasło <input class="log" type="password" name="password"></label>
                     </fieldset>
                         <fieldset>
                             <legend>Dane Kontaktowe</legend>
@@ -154,7 +154,7 @@
                         </optgroup>
                     </select>
                 </label>
-                <fieldset>
+                
                     <label for="a">Budżet
                     <input type="range" id="a" name="a" min="0" max="20000" step="100" oninput="result.value=a.value"/>           
                     <output name="result" for="a" >10000</output>zł
@@ -165,7 +165,7 @@
                         <label for="Praca"><input type="checkbox" value="Praca" name="Praca">Praca</label>
                         <label for="Filmy"><input type="checkbox" value="Filmy" name="Filmy">Przeglądanie internetu</label>
                     </fieldset>
-                </fieldset>  
+               
                 <fieldset>
                     <legend>Dodatkowe usługi</legend>
                     <label for="mon">Montaż Pc</label><input type="radio" name="mon">

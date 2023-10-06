@@ -22,13 +22,26 @@ body{
 .formularz{
     width: 30rem;
     display: flex;
-    
+
 }
 
-
-
 fieldset{
-    
     text-align: center;
     padding: 1rem;
 }
+
+.login{
+    display: flex;
+    justify-content: left;
+    height: 5rem;
+    flex-wrap: wrap;
+    width: 25rem;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.log{
+    width: 24rem;
+}  
+
