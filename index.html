@@ -18,166 +18,166 @@
                     <fieldset class="login">
                         <legend>Logowanie</legend>
                         <label for="username">Nazwa użytkownika <input class="log" type="text" name="username" placeholder=""></label>
-                        <label for="password" class="dol">Hasło <input class="log" type="password" name="password"></label>
+                        <label for="password">Hasło <input class="log" type="password" name="password"></label>
                     </fieldset>
-                        <fieldset>
-                            <legend>Dane Kontaktowe</legend>
-                            <label for="number">Numer telefonu <input type="tel" name="number"></label>
-                            <label for="email">Email <input type="email" name="mail"></label>
+                        <fieldset class="contact">
+                            <legend >Dane Kontaktowe</legend>
+                            <label for="number">Numer telefonu <input type="tel" name="number" placeholder="+48 500 500 500"></label>
+                            <label for="email" class="meil">Email <input type="email" name="mail"placeholder="tutaj@gmail.com"></label>
                         </fieldset>  
                 </fieldset>
         
-            <fieldset>
-                <legend>Dane komputera</legend>
-                <label for="processor"> Procesor
-                    <select name="processor">
-                        <optgroup label="AMD">
-                            <option>Ryzen 9</option>
-                            <option>Ryzen 7</option>
-                            <option>Ryzen 5</option>
-                            <option>Ryzen 3</option>
-                        </optgroup>
-                        <optgroup label="Intel">
-                            <option>Intel Core i9</option>
-                            <option>Intel Core i7</option>
-                            <option>Intel Core i5</option>
-                            <option>Intel Core i3</option>
-                        </optgroup>
-                    </select>
-                </label>
-                <label for="Grafika">Karta graficzna
-                    <select name="Grafika" id="">
-                        <optgroup label="AMD">
-                            <option>Gigabyte</option>
-                            <option>Sapphire</option>
-                            <option>PowerColor</option>
-                            <option>Asus</option>
-                            <option>ASRock</option>
-                            <option>AMD</option>
-                            <option>MSI</option>
-                            <option>XFX</option>
-                        </optgroup>
-                            <optgroup label="Nvidia">
-                            <option>Gigabyte</option>
-                            <option>MSI</option>
-                            <option>Inno3D</option>
-                            <option>Asus</option>
-                            <option>Zotac</option>
-                            <option>Pny</option>
-                            <option>Gainward</option>
-                            <option>Palit</option>
-                            <option>KFA2</option>
-                    <   /optgroup>
-                    </select>
-                </label>
-                <label for="Płyta">Płyta głowna
-                    <select name="Płyta">
-                       <optgroup label="Socket 1700">
-                        <option>Asus</option>
-                        <option>ASRock</option>
-                        <option>Gigabyte</option>
-                        <option>MSI</option>
-                        <option>Biostar</option>
-                       </optgroup>
-                       <optgroup label="Socket 1200">
-                        <option>Gigabyte</option>
-                        <option>ASRock</option>
-                        <option>ASUS</option>
-                        <option>MSI</option>
-                        <option>EVGA</option>
-                        <option>NZXT</option>
-                       </optgroup>
-                       <optgroup label="Socket 1151">
-                        <option>ASRock</option>
-                       </optgroup>
-                       <optgroup label="Socket AM5">
-                        <option>ASUS</option>
-                        <option>ASRock</option>
-                        <option>Gigabyte</option>
-                        <option>MSI</option>
-                       </optgroup>
-                       <optgroup label="Socket AM4">
-                        <option>ASUS</option>
-                        <option>ASRock</option>
-                        <option>Gigabyte</option>
-                        <option>MSI</option>
-                       </optgroup>
-                    </select>
-                </label>
-                <label for="RAM">RAM
-                    <select name="RAM">
-                        <optgroup label="DDR5">
-                            <option>Kingston</option>
-                            <option>Corsair</option>
-                            <option>G.SKILL</option>
-                            <option>Patriot</option>
-                            <option>Goodram</option>
-                            <option>Adata</option>
-                            <option>Crucial</option>
-                            <option>Dell</option>
-                            <option>Lexar</option>
-                            <option>Pny</option>
-                        </optgroup>
-                        <optgroup label="DDR4">
-                            <option>G.Skill</option>
-                            <option>Kingstone</option>
-                            <option>Corsair</option>
-                            <option>Patriot</option>
-                            <option>Goodram</option>
-                            <option>Team Group</option>
-                            <option>Adata</option>
-                            <option>Dell</option>
-                        </optgroup>
-                    </select>
-                </label>
-                <label for="Dysk">Dyski
-                    <select name="Dysk">
-                        <optgroup label="M2">
-                            <option>Transcend</option>
-                            <option>Adata</option>
-                            <option>Corsair</option>
-                            <option>WD</option>
-                            <option>Silicon Power</option>
-                        </optgroup>
-                        <optgroup label="SSD">
-                            <option>Transcend</option>
-                            <option>Kingston</option>
-                            <option>WD</option>
-                            <option>Adata</option>
-                            <option>Crucial</option>
-                        </optgroup>
-                        <optgroup label="HDD">
-                            <option>WD</option>
-                            <option>Seagate</option>
-                            <option>Synology</option>
-                            <option>Toshiba</option>
-                        </optgroup>
-                    </select>
-                </label>
-                
-                    <label for="a">Budżet
-                    <input type="range" id="a" name="a" min="0" max="20000" step="100" oninput="result.value=a.value"/>           
-                    <output name="result" for="a" >10000</output>zł
-                </label>
-                    <fieldset>
-                        <legend>zastosowanie komputera</legend>
-                        <label for="Gry"><input type="checkbox" value="Gry" name="Gry">Granie</label>
-                        <label for="Praca"><input type="checkbox" value="Praca" name="Praca">Praca</label>
-                        <label for="Filmy"><input type="checkbox" value="Filmy" name="Filmy">Przeglądanie internetu</label>
+                <fieldset>
+                    <legend>Dane komputera</legend>
+                        <label for="processor"> Procesor
+                            <select name="processor">
+                                <optgroup label="AMD">
+                                    <option>Ryzen 9</option>
+                                    <option>Ryzen 7</option>
+                                    <option>Ryzen 5</option>
+                                    <option>Ryzen 3</option>
+                                </optgroup>
+                                <optgroup label="Intel">
+                                    <option>Intel Core i9</option>
+                                    <option>Intel Core i7</option>
+                                    <option>Intel Core i5</option>
+                                    <option>Intel Core i3</option>
+                                </optgroup>
+                            </select>
+                        </label>
+                        <label for="Grafika">Karta graficzna
+                            <select name="Grafika" id="">
+                                <optgroup label="AMD">
+                                    <option>Gigabyte</option>
+                                    <option>Sapphire</option>
+                                    <option>PowerColor</option>
+                                    <option>Asus</option>
+                                    <option>ASRock</option>
+                                    <option>AMD</option>
+                                    <option>MSI</option>
+                                    <option>XFX</option>
+                                </optgroup>
+                                    <optgroup label="Nvidia">
+                                    <option>Gigabyte</option>
+                                    <option>MSI</option>
+                                    <option>Inno3D</option>
+                                    <option>Asus</option>
+                                    <option>Zotac</option>
+                                    <option>Pny</option>
+                                    <option>Gainward</option>
+                                    <option>Palit</option>
+                                    <option>KFA2</option>
+                            <   /optgroup>
+                            </select>
+                        </label>
+                        <label for="Płyta">Płyta głowna
+                            <select name="Płyta">
+                            <optgroup label="Socket 1700">
+                                <option>Asus</option>
+                                <option>ASRock</option>
+                                <option>Gigabyte</option>
+                                <option>MSI</option>
+                                <option>Biostar</option>
+                            </optgroup>
+                            <optgroup label="Socket 1200">
+                                <option>Gigabyte</option>
+                                <option>ASRock</option>
+                                <option>ASUS</option>
+                                <option>MSI</option>
+                                <option>EVGA</option>
+                                <option>NZXT</option>
+                            </optgroup>
+                            <optgroup label="Socket 1151">
+                                <option>ASRock</option>
+                            </optgroup>
+                            <optgroup label="Socket AM5">
+                                <option>ASUS</option>
+                                <option>ASRock</option>
+                                <option>Gigabyte</option>
+                                <option>MSI</option>
+                            </optgroup>
+                            <optgroup label="Socket AM4">
+                                <option>ASUS</option>
+                                <option>ASRock</option>
+                                <option>Gigabyte</option>
+                                <option>MSI</option>
+                            </optgroup>
+                            </select>
+                        </label>
+                        <label for="RAM">RAM
+                            <select name="RAM">
+                                <optgroup label="DDR5">
+                                    <option>Kingston</option>
+                                    <option>Corsair</option>
+                                    <option>G.SKILL</option>
+                                    <option>Patriot</option>
+                                    <option>Goodram</option>
+                                    <option>Adata</option>
+                                    <option>Crucial</option>
+                                    <option>Dell</option>
+                                    <option>Lexar</option>
+                                    <option>Pny</option>
+                                </optgroup>
+                                <optgroup label="DDR4">
+                                    <option>G.Skill</option>
+                                    <option>Kingstone</option>
+                                    <option>Corsair</option>
+                                    <option>Patriot</option>
+                                    <option>Goodram</option>
+                                    <option>Team Group</option>
+                                    <option>Adata</option>
+                                    <option>Dell</option>
+                                </optgroup>
+                            </select>
+                        </label>
+                        <label for="Dysk">Dyski
+                            <select name="Dysk">
+                                <optgroup label="M2">
+                                    <option>Transcend</option>
+                                    <option>Adata</option>
+                                    <option>Corsair</option>
+                                    <option>WD</option>
+                                    <option>Silicon Power</option>
+                                </optgroup>
+                                <optgroup label="SSD">
+                                    <option>Transcend</option>
+                                    <option>Kingston</option>
+                                    <option>WD</option>
+                                    <option>Adata</option>
+                                    <option>Crucial</option>
+                                </optgroup>
+                                <optgroup label="HDD">
+                                    <option>WD</option>
+                                    <option>Seagate</option>
+                                    <option>Synology</option>
+                                    <option>Toshiba</option>
+                                </optgroup>
+                            </select>
+                        </label>
+                        
+                            <label for="a">Budżet
+                            <input type="range" id="a" name="a" min="0" max="20000" step="100" oninput="result.value=a.value"/>           
+                            <output name="result" for="a" >10000</output>zł
+                        </label>
+                            <fieldset>
+                                <legend>zastosowanie komputera</legend>
+                                <label for="Gry"><input type="checkbox" value="Gry" name="Gry">Granie</label>
+                                <label for="Praca"><input type="checkbox" value="Praca" name="Praca">Praca</label>
+                                <label for="Filmy"><input type="checkbox" value="Filmy" name="Filmy">Przeglądanie internetu</label>
+                            </fieldset>
+                    
+                        <fieldset>
+                            <legend>Dodatkowe usługi</legend>
+                            <label for="mon">Montaż Pc</label><input type="radio" name="mon">
+                            <label for="in">Instalacja systemu</label><input type="radio" name="in">
+                            <label for="wgr">Wgranie podstawowych programów</label><input type="radio" name="wgr">
+                            <label for="mal">Malowanie obudowy<input type="radio" name="mal"></label>
+                            <input type="file" name="zdjecie" id="zdjecie">
+                        </fieldset>
+                        <fieldset>
+                        <input type="submit"> <input type="reset"> <label for="date">Data przesłanie zlecenia <input type="datetime-local" name="date" id="date"></label>  
                     </fieldset>
-               
-                <fieldset>
-                    <legend>Dodatkowe usługi</legend>
-                    <label for="mon">Montaż Pc</label><input type="radio" name="mon">
-                    <label for="in">Instalacja systemu</label><input type="radio" name="in">
-                    <label for="wgr">Wgranie podstawowych programów</label><input type="radio" name="wgr">
-                    <label for="mal">Malowanie obudowy<input type="radio" name="mal"></label>
-                    <input type="file" name="zdjecie" id="zdjecie">
-                </fieldset>
-                <fieldset>
-                <input type="submit"> <input type="reset"> <label for="date">Data przesłanie zlecenia <input type="datetime-local" name="date" id="date"></label>  
-            </fieldset>
-            </fieldset>   
+                </fieldset>   
                
             </fieldset>
            

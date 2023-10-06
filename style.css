@@ -37,11 +37,25 @@ fieldset{
     flex-wrap: wrap;
     width: 25rem;
     align-items: center;
-    padding: 1rem;
+    padding: 2rem;
     margin: 1rem;
 }
 
 .log{
-    width: 24rem;
+    width: 23rem;
 }  
 
+.contact{
+    display: flex;
+    justify-content: center;
+    height: 5rem;
+    flex-wrap: wrap;
+    width: 25rem;
+    align-items: center;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.meil{
+    padding-left: 3.9rem;
+}
