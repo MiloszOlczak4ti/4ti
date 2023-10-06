@@ -74,3 +74,56 @@ fieldset{
 .meil{
     padding-left: 3.9rem;
 }
+
+.komp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.danke{
+    height: 5rem;
+    width: 29.3rem;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+   
+}
+
+.danke label{
+    background-color:#D5B39A;
+    height: 1.2rem;
+    border-top-left-radius: 0.3rem;
+    border-bottom-left-radius: 0.3rem;
+    width: 14rem;
+    display: flex;
+    justify-content: right;
+}
+
+.danke label select{
+    width:7rem ;
+}
+.right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 14.65rem;
+    height: 5rem;
+ 
+}
+
+.left {
+    display: flex;
+    flex-wrap: wrap;
+    width: 14.65rem;
+    justify-content: center;
+    height: 5rem;
+}
+
+select{
+    text-align: center;
+    border: none;
+    background-image: linear-gradient(to right,#D5B39A, #966A5A);;
+}
+

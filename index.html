@@ -27,8 +27,10 @@
                         </fieldset>  
                 </fieldset>
         
-                <fieldset>
+                <fieldset class="komp">
                     <legend>Dane komputera</legend>
+                    <div class="danke">
+                        <div class="left">
                         <label for="processor"> Procesor
                             <select name="processor">
                                 <optgroup label="AMD">
@@ -67,7 +69,7 @@
                                     <option>Gainward</option>
                                     <option>Palit</option>
                                     <option>KFA2</option>
-                            <   /optgroup>
+                            </optgroup>
                             </select>
                         </label>
                         <label for="Płyta">Płyta głowna
@@ -104,7 +106,9 @@
                             </optgroup>
                             </select>
                         </label>
-                        <label for="RAM">RAM
+                    </div>
+                    <div class="right">
+                        <label for="RAM">Pamięć RAM
                             <select name="RAM">
                                 <optgroup label="DDR5">
                                     <option>Kingston</option>
@@ -130,7 +134,7 @@
                                 </optgroup>
                             </select>
                         </label>
-                        <label for="Dysk">Dyski
+                        <label for="Dysk">Dysk
                             <select name="Dysk">
                                 <optgroup label="M2">
                                     <option>Transcend</option>
@@ -154,7 +158,17 @@
                                 </optgroup>
                             </select>
                         </label>
-                        
+                        <label for="Za">Zasilacz
+                            <select name="Za">
+                                <option>450W</option>
+                                <option>550W</option>
+                                <option>650W</option>
+                                <option>750W</option>
+                                <option>1000W</option>
+                            </select>
+                        </label>
+                        </div>
+                    </div>
                             <label for="a">Budżet
                             <input type="range" id="a" name="a" min="0" max="20000" step="100" oninput="result.value=a.value"/>           
                             <output name="result" for="a" >10000</output>zł
@@ -168,7 +182,7 @@
                     
                         <fieldset>
                             <legend>Dodatkowe usługi</legend>
-                            <label for="mon">Montaż Pc</label><input type="radio" name="mon">
+                            <label for="mon">Montaż Komputera</label><input type="radio" name="mon">
                             <label for="in">Instalacja systemu</label><input type="radio" name="in">
                             <label for="wgr">Wgranie podstawowych programów</label><input type="radio" name="wgr">
                             <label for="mal">Malowanie obudowy<input type="radio" name="mal"></label>
