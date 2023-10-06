@@ -9,7 +9,7 @@
 <body>
     
     <div class="strona">
-        <div class="Welcome">
+        <div class="formularz">
           <form>
             <fieldset class="main">
                     <fieldset>
@@ -28,7 +28,7 @@
                 </fieldset>
         
             <fieldset>
-                <legend>Części komputerowe komputerowe</legend>
+                <legend>Dane komputera</legend>
                 <label for="processor"> Procesor
                     <select name="processor">
                         <optgroup label="AMD">
@@ -154,7 +154,6 @@
                         </optgroup>
                     </select>
                 </label>
-            </fieldset>   
                 <fieldset>
                     <label for="a">Budżet
                     <input type="range" id="a" name="a" min="0" max="20000" step="100" oninput="result.value=a.value"/>           
@@ -178,6 +177,8 @@
                 <fieldset>
                 <input type="submit"> <input type="reset"> <label for="date">Data przesłanie zlecenia <input type="datetime-local" name="date" id="date"></label>  
             </fieldset>
+            </fieldset>   
+               
             </fieldset>
            
           </form>

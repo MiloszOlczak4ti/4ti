@@ -19,3 +19,16 @@ body{
     align-items: center;
 }
 
+.formularz{
+    width: 30rem;
+    display: flex;
+    
+}
+
+
+
+fieldset{
+    
+    text-align: center;
+    padding: 1rem;
+}
