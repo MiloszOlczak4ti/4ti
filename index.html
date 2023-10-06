@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Krótka strona</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     
@@ -169,18 +173,19 @@
                         </label>
                         </div>
                     </div>
-                            <label for="a">Budżet
+                            <label for="a" class="bud">Budżet
                             <input type="range" id="a" name="a" min="0" max="20000" step="100" oninput="result.value=a.value"/>           
                             <output name="result" for="a" >10000</output>zł
                         </label>
-                            <fieldset>
+
+                            <fieldset class="zasto">
                                 <legend>zastosowanie komputera</legend>
                                 <label for="Gry"><input type="checkbox" value="Gry" name="Gry">Granie</label>
                                 <label for="Praca"><input type="checkbox" value="Praca" name="Praca">Praca</label>
-                                <label for="Filmy"><input type="checkbox" value="Filmy" name="Filmy">Przeglądanie internetu</label>
+                                <label for="Filmy"><input type="checkbox" value="Filmy" name="Filmy">Internet</label>
                             </fieldset>
                     
-                        <fieldset>
+                        <fieldset class="usl">
                             <legend>Dodatkowe usługi</legend>
                             <label for="mon">Montaż Komputera</label><input type="radio" name="mon">
                             <label for="in">Instalacja systemu</label><input type="radio" name="in">
