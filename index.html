@@ -155,13 +155,20 @@
                     </select>
                 </label>
             </fieldset>   
-            <fieldset>
-                <label for="">Budżet
-                <input type="range" id="a" name="a" min="0" max="20000" step="100" oninput="result.value=a.value"/>           
-                <output name="result" for="a" >10000</output>zł
-            </label>
-            </fieldset>     
+                <fieldset>
+                    <label for="a">Budżet
+                    <input type="range" id="a" name="a" min="0" max="20000" step="100" oninput="result.value=a.value"/>           
+                    <output name="result" for="a" >10000</output>zł
+                </label>
+                    <fieldset>
+                        <legend>zastosowanie komputera</legend>
+                        <label for="Gry"><input type="radio" value="Gry" name="Gry">Granie</label>
+                        <label for="Praca"><input type="radio" value="Praca" name="Praca">Praca</label>
+                        <label for="Filmy"><input type="radio" value="Filmy" name="Filmy">Przeglądanie internetu</label>
+                    </fieldset>
+                </fieldset>     
             </fieldset>
+            <input type="submit">
           </form>
         </div>
     </div>
