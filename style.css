@@ -2,7 +2,6 @@
     padding: 0; 
     margin: 0;
 }
-
 body{
     display: flex;
     justify-content: center;
@@ -11,7 +10,6 @@ body{
     width: 100vw;
     font-family: 'Open Sans', sans-serif;
 }
-
 .strona{
     width:100vw;
     height:100vh;
@@ -19,7 +17,6 @@ body{
     justify-content:center;
     align-items:center;
 }
-
 legend{
     width: 7rem;
     border-width: 1px;
@@ -28,7 +25,6 @@ legend{
     border-radius: 1rem;
     background-color: #A17765;
 }
-
 .main{
     background-color: #420905;
     width: 60rem;
@@ -40,7 +36,6 @@ legend{
     padding: 1rem;
 }
 .lewo{
-    background-color: aqua;
     height: 49rem;
     width: 29rem;
     display: flex;
@@ -55,19 +50,18 @@ legend{
     flex-wrap: wrap;
     justify-content: center;
 }
-
-
-
 fieldset{
     text-align: center;
-    padding: 1rem;
+    padding: 0.5rem;
 }
-
 .user{
     width: 25rem;
     height: 23rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
-
 .login{
     display: flex;
     justify-content: center;
@@ -79,76 +73,65 @@ fieldset{
     margin: 1rem;
     background-color: #ffe4c4;
 }
-
 .log{
     width: 100%;
     
 }  
-
 .contact{
     display: flex;
     justify-content: center;
     height: 5rem;
     flex-wrap: wrap;
     align-items: center;
-    margin: 1re;
+    width: 21.5rem;
     background-color: bisque;
 }
-
 .meil{
     padding-left: 4.7rem;
 }
-
 .komp{
-    margin-top: 1rem;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: top; 
     flex-wrap: wrap;
+    width: 25rem;
+    height:15rem;
 }
-
+.komp fieldset{
+    padding: 0;
+}
 .danke{
-    height: 5rem;
-    width: 29.3rem;
+    width: 23rem;
     display: flex;
-    justify-content: left;
+    flex-wrap: wrap;   
+}
+.left {
+    height: 12.5rem ;
+    width: 100%;
+    display: flex;
     flex-wrap: wrap;
+    justify-content: center;
    
 }
-
 .danke label{
     background-color:#D5B39A;
     height: 1.2rem;
     border-top-left-radius: 0.3rem;
     border-bottom-left-radius: 0.3rem;
-    width: 14rem;
     display: flex;
-    justify-content: right;
+    justify-content: left;
+    width: 65%;
+    align-items: center;
 }
-
-.danke label select{
-    width:7rem ;
+.labelin{
+    height: 100%;
+    width: 50%;
 }
-.right {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 14.65rem;
-    height: 5rem;
- 
-}
-
-.left {
-    display: flex;
-    flex-wrap: wrap;
-    width: 14.65rem;
-    justify-content: center;
-    height: 5rem;
-}
-
 select{
     text-align: center;
     border: none;
+    height: 100%;
+    width: 50%;
     background-image: linear-gradient(to right,#D5B39A, #966A5A);;
 }
 

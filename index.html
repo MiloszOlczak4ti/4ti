@@ -33,11 +33,11 @@
                     </fieldset>
         
                 <fieldset class="komp">
-                    <legend>Dane komputera</legend>
+                    <legend>Specyfikacja komputera</legend>
                     <div class="danke">
                         <div class="left">
-                        <label for="processor"> Procesor
-                            <select name="processor">
+                        <label for="processor"><div class="labelin"> Procesor</div>
+                            <select name="processor" id="1">
                                 <optgroup label="AMD">
                                     <option>Ryzen 9</option>
                                     <option>Ryzen 7</option>
@@ -52,8 +52,8 @@
                                 </optgroup>
                             </select>
                         </label>
-                        <label for="Grafika">Karta graficzna
-                            <select name="Grafika" id="">
+                        <label for="Grafika"><div class="labelin">Karta graficzna</div>
+                            <select name="Grafika" >
                                 <optgroup label="AMD">
                                     <option>Gigabyte</option>
                                     <option>Sapphire</option>
@@ -77,7 +77,7 @@
                             </optgroup>
                             </select>
                         </label>
-                        <label for="Płyta">Płyta głowna
+                        <label for="Płyta"><div class="labelin">Płyta głowna</div>
                             <select name="Płyta">
                             <optgroup label="Socket 1700">
                                 <option>Asus</option>
@@ -111,10 +111,8 @@
                             </optgroup>
                             </select>
                         </label>
-                    </div>
-                    <div class="right">
-                        <label for="RAM">Pamięć RAM
-                            <select name="RAM">
+                        <label for="RAM"><div class="labelin">Pamięć RAM</div>
+                            <select name="RAM" id="4">
                                 <optgroup label="DDR5">
                                     <option>Kingston</option>
                                     <option>Corsair</option>
@@ -139,8 +137,8 @@
                                 </optgroup>
                             </select>
                         </label>
-                        <label for="Dysk">Dysk
-                            <select name="Dysk">
+                        <label for="Dysk"><div class="labelin">Dysk</div>
+                            <select name="Dysk" id="5">
                                 <optgroup label="M2">
                                     <option>Transcend</option>
                                     <option>Adata</option>
@@ -163,8 +161,8 @@
                                 </optgroup>
                             </select>
                         </label>
-                        <label for="Za">Zasilacz
-                            <select name="Za">
+                        <label for="Za"><div class="labelin">Zasilacz</div>
+                            <select name="Za" id="6">
                                 <option>450W</option>
                                 <option>550W</option>
                                 <option>650W</option>
@@ -172,12 +170,15 @@
                                 <option>1000W</option>
                             </select>
                         </label>
+                    </div>
+                    <div class="right">
+                        
                         </div>
                     </div>
-                            <label for="a" class="bud">Budżet
+                        <!--     <label for="a" class="bud">Budżet
                             <input type="range" id="a" name="a" min="0" max="20000" step="100" oninput="result.value=a.value"/>           
                             <output name="result" for="a" >10000</output>zł
-                        </label>
+                        </label> -->
                     </fieldset>
                     </div>
              
