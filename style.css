@@ -31,25 +31,49 @@ legend{
 
 .main{
     background-color: #420905;
-    border-radius: 1rem;
-}
-.formularz{
-    width: 36rem;
+    width: 60rem;
+    height: 50rem;
     display: flex;
-
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
 }
+.lewo{
+    background-color: aqua;
+    height: 49rem;
+    width: 29rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.prawo{
+    background-color: blueviolet;
+    height: 49rem;
+    width: 29rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
 
 fieldset{
     text-align: center;
     padding: 1rem;
 }
 
+.user{
+    width: 25rem;
+    height: 23rem;
+}
+
 .login{
     display: flex;
-    justify-content: left;
+    justify-content: center;
     height: 5rem;
     flex-wrap: wrap;
-    width: 25rem;
+    
     align-items: center;
     padding: 2rem;
     margin: 1rem;
@@ -57,7 +81,8 @@ fieldset{
 }
 
 .log{
-    width: 23rem;
+    width: 100%;
+    
 }  
 
 .contact{
@@ -65,15 +90,13 @@ fieldset{
     justify-content: center;
     height: 5rem;
     flex-wrap: wrap;
-    width: 25rem;
     align-items: center;
-    padding: 2rem;
-    margin: 1rem;
+    margin: 1re;
     background-color: bisque;
 }
 
 .meil{
-    padding-left: 3.9rem;
+    padding-left: 4.7rem;
 }
 
 .komp{
@@ -164,14 +187,17 @@ select{
 .usl{
     display: flex;
     flex-wrap: wrap;
-    width: 27.5rem;
-    height: 20rem;
+    width: 23rem;
     justify-content: center;
     align-items: center;
-    background-color: ;
+    border-radius: 3rem;
+    background-color: #BA947F;
 }
 
 .usl label {
-    background-color: white;
     width: 20rem;
-}
+    display: flex;
+    color: #FFE4C4;
+   }
+
+  

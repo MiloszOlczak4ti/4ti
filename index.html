@@ -13,23 +13,24 @@
 <body>
     
     <div class="strona">
-        <div class="formularz">
-          <form>
+        <form>
+           
             <fieldset class="main">
-                    <fieldset>
+                <div class="lewo">
+                    <fieldset class="user">
                         <legend>Dane użytkownika</legend>
                    
-                    <fieldset class="login">
-                        <legend>Logowanie</legend>
-                        <label for="username">Nazwa użytkownika <input class="log" type="text" name="username" placeholder=""></label>
-                        <label for="password">Hasło <input class="log" type="password" name="password"></label>
-                    </fieldset>
+                        <fieldset class="login">
+                            <legend>Logowanie</legend>
+                            <label for="username">Nazwa użytkownika <input class="log" type="text" name="username" placeholder=""></label>
+                            <label for="password">Hasło <input class="log" type="password" name="password"></label>
+                        </fieldset>
                         <fieldset class="contact">
                             <legend >Dane Kontaktowe</legend>
                             <label for="number">Numer telefonu <input type="tel" name="number" placeholder="+48 500 500 500"></label>
                             <label for="email" class="meil">Email <input type="email" name="mail"placeholder="tutaj@gmail.com"></label>
                         </fieldset>  
-                </fieldset>
+                    </fieldset>
         
                 <fieldset class="komp">
                     <legend>Dane komputera</legend>
@@ -177,7 +178,12 @@
                             <input type="range" id="a" name="a" min="0" max="20000" step="100" oninput="result.value=a.value"/>           
                             <output name="result" for="a" >10000</output>zł
                         </label>
-
+                    </fieldset>
+                    </div>
+             
+                
+                    <div class="prawo">
+                        <fieldset>
                             <fieldset class="zasto">
                                 <legend>zastosowanie komputera</legend>
                                 <label for="Gry"><input type="checkbox" value="Gry" name="Gry">Granie</label>
@@ -187,22 +193,19 @@
                     
                         <fieldset class="usl">
                             <legend>Dodatkowe usługi</legend>
-                            <label for="mon">Montaż Komputera</label><input type="radio" name="mon">
-                            <label for="in">Instalacja systemu</label><input type="radio" name="in">
-                            <label for="wgr">Wgranie podstawowych programów</label><input type="radio" name="wgr">
-                            <label for="mal">Malowanie obudowy<input type="radio" name="mal"></label>
-                            <input type="file" name="zdjecie" id="zdjecie">
+                            <label for="mon"><input type="radio" name="mon">Montaż Komputera</label>
+                            <label for="in"><input type="radio" name="in">Instalacja systemu</label>
+                            <label for="wgr"><input type="radio" name="wgr">Wgranie podstawowych programów</label>
+                            <label for="mal"><input type="radio" name="mal">Malowanie obudowy <input type="file" name="zdjecie" id="zdjecie"></label>
+                           
                         </fieldset>
                         <fieldset>
                         <input type="submit"> <input type="reset"> <label for="date">Data przesłanie zlecenia <input type="datetime-local" name="date" id="date"></label>  
                     </fieldset>
-                </fieldset>   
-               
-            </fieldset>
-           
-          </form>
+                    </fieldset>
+                  </div>
+                </fieldset>
+           </form>
         </div>
-    </div>
-
 </body>
 </html>
