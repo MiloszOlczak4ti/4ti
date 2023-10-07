@@ -184,14 +184,23 @@
              
                 
                     <div class="prawo">
-                        <fieldset>
-                            <fieldset class="zasto">
-                                <legend>zastosowanie komputera</legend>
-                                <label for="Gry"><input type="checkbox" value="Gry" name="Gry">Granie</label>
-                                <label for="Praca"><input type="checkbox" value="Praca" name="Praca">Praca</label>
-                                <label for="Filmy"><input type="checkbox" value="Filmy" name="Filmy">Internet</label>
+                        <fieldset class="pra">
+                            <fieldset class="budza">
+                                <div class="zabu">
+                                <fieldset class="zasto">
+                                    <legend>zastosowanie komputera</legend>
+                                    <label for="Gry"><input type="checkbox" value="Gry" name="Gry">Granie</label>
+                                    <label for="Praca"><input type="checkbox" value="Praca" name="Praca">Praca</label>
+                                    <label for="Filmy"><input type="checkbox" value="Filmy" name="Filmy">Internet</label>
+                                </div>
+                                <div class="buza"> 
+                                    <label for="a" class="bud">Budżet
+                                            <input type="range" id="a" name="a" min="0" max="20000" step="100" oninput="result.value=a.value"/>           
+                                            <output name="result" for="a" >10000</output>zł
+                                        </label>
+                                </div>   
+                                </fieldset>
                             </fieldset>
-                    
                         <fieldset class="usl">
                             <legend>Dodatkowe usługi</legend>
                             <label for="mon"><input type="radio" name="mon">Montaż Komputera</label>
