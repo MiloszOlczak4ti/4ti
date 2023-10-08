@@ -28,7 +28,7 @@ legend{
 
 .main{
     background-color: #420905;
-    width: 60rem;
+    width: 70rem;
     height: 50rem;
     display: flex;
     justify-content: center;
@@ -46,7 +46,7 @@ legend{
 }
 .prawo{
     height: 49rem;
-    width: 29rem;
+    width: 30rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -161,8 +161,9 @@ select{
     height: 100%;
 }
 .buza{
-    width: fill;
+    width: 20rem;
     height: 100%;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -173,7 +174,7 @@ select{
     display: flex;
     justify-content: center;
     border-color: #A17765;
-    width: 10rem;
+    width: 15rem;
     
     
 }
@@ -217,4 +218,7 @@ select{
     color: #FFE4C4;
    }
 
+   .sub{
+    background-color: #A17765;
+   }
   
