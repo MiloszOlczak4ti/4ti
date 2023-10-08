@@ -149,7 +149,6 @@ select{
     border-style: none;
     background-color: gold;
 }
-
 .budza{
     width: 27rem;
     height: 10rem;
@@ -174,11 +173,8 @@ select{
     display: flex;
     justify-content: center;
     border-color: #A17765;
-    width: 15rem;
-    
-    
+    width: 15rem;   
 }
-
 .zasto{
     border-radius: 1rem;
     background-color: #6C3A2F;
@@ -190,7 +186,6 @@ select{
     flex-wrap: wrap;
     margin-bottom: 1rem;
 }
-
 .zasto label {
     display: flex;
     color: #EACCAF;
@@ -201,7 +196,6 @@ select{
     width: 5rem;
     height: 0.8rem;
 }
-
 .usl{
     display: flex;
     flex-wrap: wrap;
@@ -211,14 +205,35 @@ select{
     border-radius: 3rem;
     background-color: #BA947F;
 }
-
 .usl label {
     width: 20rem;
     display: flex;
     color: #FFE4C4;
    }
-
-   .sub{
+.sub{
     background-color: #A17765;
-   }
-  
+}
+.pery{
+    display: flex;
+    justify-content: center;
+    align-items: top; 
+    flex-wrap: wrap;
+    width: 25rem;
+    height:15rem;
+}
+.inpery{
+    width: 23rem;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.inpery label {
+    background-color:#D5B39A;
+    height: 1.2rem;
+    border-top-left-radius: 0.3rem;
+    border-bottom-left-radius: 0.3rem;
+    display: flex;
+    justify-content: left;
+    width: 65%;
+    align-items: center;
+}
